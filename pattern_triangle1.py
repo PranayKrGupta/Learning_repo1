@@ -1,6 +1,7 @@
 class Triangle:
     def __init__(self):
         try:
+            print("Hello!")
             self.n=int(input("Enter the Height of triangle : "))
             if self.n<=0:
                 raise Exception
